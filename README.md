@@ -1,13 +1,13 @@
 # MUPPET (*M*edNeXt *U*nimodal *P*erivascular s*P*ace *E*xtractor *T*ool)
 <img width="335" height="257" alt="PVS_brain" src="https://github.com/user-attachments/assets/a4da2059-071d-4d55-8340-c646c83cf794" />
 
-Pretrained models for automated 3D perivascular space (PVS) segmentation in T1- and T2-weighted MRI.
+Pretrained models for automated 3D perivascular space (PVS) segmentation in **T1- and T2-weighted MRI**.
 - **T2w models (MedNeXt, nnUNet):**
   + trained on 200 T2w MRIs (HCP Aging)
-  + segment white matter PVS only
+  + segment *white matter PVS only*
 - **T1w model (MedNeXt):**
   + trained on 40 T1w MRIs from a heterogeneous dataset (mild cognitive impairment, dementia, and healthy controls)
-  + segments PVS in white matter and basal ganglia
+  + segments PVS in *white matter and basal ganglia*
 
 # Installation
 The repository can be cloned and installed using the following commands.
